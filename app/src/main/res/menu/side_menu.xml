@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/account"
+            android:icon="@drawable/ic_baseline_account_circle_24"
+            android:title="verification" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/verify"
+            android:icon="@drawable/ic_baseline_verified_24"
+            android:title="verification" />
+    </group>
+</menu>

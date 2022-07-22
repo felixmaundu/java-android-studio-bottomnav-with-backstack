@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/account"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="Account"
+        app:showAsAction="ifRoom"
+        android:iconTint="@color/white"
+        />
+
+    <item
+        android:id="@+id/appImageLogo"
+        android:icon="@drawable/cartoon2"
+        android:title="ImageLogo" />
+
+    <item
+        android:id="@+id/customize"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="customize"
+        app:showAsAction="ifRoom"/>
+</menu>
